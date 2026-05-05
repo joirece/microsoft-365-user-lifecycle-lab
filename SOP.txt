@@ -1,0 +1,83 @@
+📄 SOP: User Onboarding & Offboarding
+System: Microsoft 365 / Microsoft Entra ID
+Purpose: Standardize secure user lifecycle management
+🟢 1. USER ONBOARDING PROCEDURE
+🎯 Objective
+Ensure new employees receive appropriate access securely and efficiently.
+🔧 Step 1: Create User Account
+Navigate to: Admin Center → Users → Active Users
+Click: Add a user
+Enter:
+Name
+Username/email
+Set temporary password
+Enable: Require password change on first login
+🔐 Step 2: Assign License
+Assign appropriate license (e.g., Microsoft 365 Business Standard)
+Confirm services (Exchange, Teams, etc.) are enabled
+👥 Step 3: Assign Group Membership (RBAC)
+Add user to department group (e.g., Finance Department)
+Verify correct access inheritance
+👉 Principle: Role-Based Access Control (RBAC)
+🔑 Step 4: Configure Security (MFA)
+Navigate to: MFA settings
+Enable MFA for user
+Ensure user registers authentication method
+🔗 Step 5: Assign Application Access
+Go to: Enterprise Applications
+Assign user or group to required apps (e.g., Slack)
+Ensure User assignment required = Enabled
+📝 Step 6: Documentation
+Update ticket with:
+Username
+Access assigned
+MFA status
+✅ Validation Checklist
+ User can log in
+ MFA prompt works
+ Correct group membership
+ Application access verified
+🔴 2. USER OFFBOARDING PROCEDURE
+🎯 Objective
+Immediately revoke access and secure company resources upon employee exit.
+🚨 Step 1: Block Sign-In (CRITICAL)
+Navigate to user account
+Click: Block sign-in → Enable
+👉 This must be done FIRST
+🔑 Step 2: Reset Password
+Generate new password
+Do NOT share with user
+🔌 Step 3: Revoke Active Sessions
+Click: Revoke sessions
+Ensures logout from all devices
+👥 Step 4: Remove Group Memberships
+Remove user from all groups
+Removes access to:
+Teams
+SharePoint
+Applications
+🔗 Step 5: Remove Application Access
+Remove from enterprise apps (if not group-based)
+📦 Step 6: Data Handling (Optional)
+Transfer ownership of files
+Convert mailbox to shared (if needed)
+🗑️ Step 7: Account Disposition
+Option 1: Disable account (retain for audit)
+Option 2: Delete account after retention period
+📝 Step 8: Documentation
+Update ticket with:
+Actions performed
+Timestamp
+Confirmation of access removal
+✅ Validation Checklist
+ Sign-in blocked
+ Sessions revoked
+ No group memberships
+ No application access
+ Data handled appropriately
+🔐 Security Principles Applied
+Least Privilege
+Identity Lifecycle Management
+Access Control (RBAC)
+Multi-Factor Authentication (MFA)
+Immediate Access Revocation
