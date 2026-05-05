@@ -1,0 +1,6 @@
+Title: New User Setup
+
+- Created user account
+- Assigned license
+- Enabled MFA
+- Added to Finance group
