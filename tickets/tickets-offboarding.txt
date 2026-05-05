@@ -1,0 +1,5 @@
+Title: User Offboarding
+
+- Blocked sign-in
+- Removed access
+- Secured account
